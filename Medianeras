@@ -29,7 +29,19 @@ style.css"
   </head>
 
   <body>
-    <h1>Medianeras</h1>
+    <h1>Go</h1>
+    <h2>Medianeras</h2>
+    <h3>Que caminos quieres escoger</h3>
+    <h4>Seguirlo</h4>
+    <h5>Ignorarlo</h5>
+    <h6>Cinematografia</h6>
+    <h7>Imagenes</h7>
+    <h8>Viajemos</h8>
+    <h9>Boton que lleva a escenas de la pelicula</h9>
+    <h10>Boton que lleva a la arquitectura de la ciudad</h10>
     
+
+
+
   </body>
 </html>
