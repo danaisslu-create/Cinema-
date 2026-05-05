@@ -29,7 +29,76 @@ style.css"
   </head>
 
   <body>
-    <h1>Medianeras</h1>
+    <h1>Go</h1>
+    <img src="ASSETS/Imagenes/Medianeras_ (2011).jpg">
+  <h2>Medianeras</h2>
+  <img src="/ASSETS/Imagenes/buenos aires.jpg">
+  <h3>¿Qué caminos quieres escoger?</h3>
+<img src="ASSETS/Imagenes/ -12.jpg">
+
+  <!-- INICIO -->
+  <div id="inicio">
+
+    <h4>Seguirlo</h4>
+    <button onclick="mostrar('seguir')">Ir</button>
+
+    <h5>Ignorarlo</h5>
+    <button onclick="mostrar('ciudad')">Ir</button>
+
+  </div>
+
+  <!-- SEGUIR -->
+  <div id="seguir" style="display:none;">
+    <h3>Seguirlo</h3>
+
+    <p>
+      Ve a alguien caminando y decide seguirlo.
+      No mira atrás. Solo avanza entre la gente.
+    </p>
+
+    <p>
+      Entra a un edificio. Sube. Cierra la puerta.
+      Todo queda en silencio.
+    </p>
+
+    <img src="https://i.imgur.com/5PLpQ7P.jpg" width="300">
+
+    <p>
+      Aunque la ciudad está llena, el lugar se siente vacío.
+    </p>
+
+    <button onclick="mostrar('escenas')">Ver escenas</button>
+    <br><br>
+    <button onclick="mostrar('inicio')">Volver</button>
+  </div>
+
+  <!-- CIUDAD -->
+  <div id="ciudad" style="display:none;">
+    <h3>Ignorarlo</h3>
+
+    <p>
+      Decide no seguir a nadie. Se queda mirando alrededor.
+    </p>
+
+    <p>
+      Edificios altos. Ventanas. Paredes vacías.
+      Algunas paredes quedan expuestas: son medianeras.
+    </p>
+
+    <img src="https://i.imgur.com/8Km9tLL.jpg" width="300">
+
+    <p>
+      La ciudad parece incompleta. Como si algo faltara.
+    </p>
+
+    <button onclick="mostrar('arquitectura')">Ver arquitectura</button>
+    <br><br>
+    <button onclick="mostrar('inicio')">Volver</button>
+  </div>
+
+  <!-- ESCENAS -->
+  <div id="escenas" style="display:none;">
+    <h3>Escenas de la película</h3>
     
   </body>
 </html>
